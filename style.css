@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header-container{
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.container{
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+a{
+    color: inherit;
+    display: inline-block;
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.py-5{
+    padding: 5rem 0;
+}
+
+.d-flex{
+    display: flex;
+}
+.align-item-center{
+    align-items: center;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+.justify-center{
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.col-6{
+    width: 50%;
+}
+
+.col-12{
+    width: 100%;
+}
+.col-4{
+    width: 33.32%;
+}
+
+header{
+    background-color: #000;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+header .logo{
+    font-size: 36px;
+    outline: none;
+    padding-left: 15px;
+}
+
+header nav{
+    position: relative;
+}
+
+header nav ul li a{
+    padding: 21px;
+    font-size: 18px;
+}
+
+header nav ul .active{
+    color: blue;
+}
+
+header nav ul:last-child li:nth-child(2){
+    margin-right: 36px;
+}
+
+header nav ul:last-child li:nth-child(3) a{
+    padding-left: 3rem;
+}
+
+header nav ul .category{
+    background-color: blue;
+}
+
+.them-color{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: calc((100% - 1320px) / 2);
+  height: 100%;
+  background-color: blue;
+  z-index: 1;
+}
+
+.bottom-nav nav ul li a{
+    font-size: 21px;
+    padding: 1rem;
+    color: gray;
+    text-transform: uppercase;
+}
+
+.bottom-nav nav{
+    position: relative;
+}
+
+.bottom-nav nav .fa-magnifying-glass{
+    color: #505050;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.hero{
+    background-color: #303640;
+    color: white;
+}
+
+.hero .hero-contant{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero .hero-contant h2,.other-great-shoes h2{
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 36px;
+}
+
+.hero .hero-contant p,.other-great-shoes p{
+    color: gray;
+    margin-bottom: 1rem;
+}
+
+.hero .hero-contant a{
+    padding: 1rem 2.5rem;
+    border: 1px solid blue;
+    border-radius: 2rem;
+}
+
+.other-great-shoes .other-great-shoes-heading{
+    text-align: center;
+}
+
+.other-great-shoes h2{
+    color: black;
+}
+
+.other-great-shoes .great-shoes-item{
+    margin: 2rem 3rem;
+    text-align: center;
+}
+
+.other-great-shoes .great-shoes-item h4{
+    margin-top: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.other-great-shoes .great-shoes-item h5{
+    color: blue;
+    font-size: 1.5rem;
+}
+
+.other-great-shoes .great-shoes-footer p{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+footer{
+    text-transform: uppercase;
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-media-links a{
+    font-size: 1.5rem;
+    padding: 5px;
+    margin: 0 2px;
+}
