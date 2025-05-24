@@ -7,7 +7,7 @@ A clean and modern front-end shoe store landing page built using **HTML5**, **CS
 
 ## 📸 Live Demo
 
-👉 [Click here to view the website](#) *(Add your GitHub Pages/Netlify/Localhost URL here)*
+👉 [Click here to view the website](#) *https://mojo-seven.vercel.app/*
 
 ---
 
